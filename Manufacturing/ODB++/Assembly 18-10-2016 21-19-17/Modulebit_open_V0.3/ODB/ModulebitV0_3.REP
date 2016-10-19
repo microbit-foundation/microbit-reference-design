@@ -1,0 +1,88 @@
+*************************************************************
+FileName = ModulebitV0_3.PcbDoc
+ODB++ directory structure
+*************************************************************
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\matrix\matrix
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\profile
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\stephdr
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\topoverlay\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\topoverlay\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\toppaste\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\toppaste\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\topsolder\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\topsolder\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\top\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\top\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottom\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottom\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottomsolder\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottomsolder\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottompaste\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottompaste\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottomoverlay\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\bottomoverlay\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\drill\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\drill\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\drill\tools
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\mechanical1\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\mechanical1\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\mechanical4\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\mechanical4\attrlist
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\comp_+_top\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\comp_+_top\components
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\comp_+_bot\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\layers\comp_+_bot\components
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\steps\pcb\eda\data
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\rect35.4331x27.5591_111\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\s19.685_225\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\s19.685_315\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\rect82.6772x74.8031_90_offset17.3228x0\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\rect82.6772x74.8031_90_offset-17.3228x0\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\rect39.4331x31.5591_111\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\s35.433_225\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\rect86.6772x78.8031_90_offset17.3228x0\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\rect86.6772x78.8031_90_offset-17.3228x0\features
+
+Generated File : P:\Live_Projects\Microbit\V2\Release\Assembly 18-10-2016 21-19-17\Modulebit_open_V0.3\ODB\odb\symbols\s35.433_315\features
+

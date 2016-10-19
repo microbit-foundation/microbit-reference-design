@@ -1,0 +1,46 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 21:19:17 On 18/10/2016
+
+Output: ODB++ Files
+Type  : ODB
+From  : PCB Document [ModulebitV0_3.PcbDoc]
+   Generated File[matrix]
+   Generated File[profile]
+   Generated File[stephdr]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[tools]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[components]
+   Generated File[features]
+   Generated File[components]
+   Generated File[data]
+   Generated File[netlist]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[ModulebitV0_3.RUL]
+   Generated File[ModulebitV0_3.REP]
+
+
+Files Generated   : 33
+Documents Printed : 0
+
+Finished Output Generation At 21:19:29 On 18/10/2016

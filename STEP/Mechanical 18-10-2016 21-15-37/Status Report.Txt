@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 21:15:38 On 18/10/2016
+
+Output: Export STEP
+Type  : ExportSTEP
+From  : Variant [FIRSTBUILD] of PCB Document [ModulebitV0_3.PcbDoc]
+   Generated File[ModulebitV0_3(FIRSTBUILD).step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 21:16:14 On 18/10/2016

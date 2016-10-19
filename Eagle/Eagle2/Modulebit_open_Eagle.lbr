@@ -1,0 +1,2787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+</packages>
+<symbols>
+<symbol name="IC_NRF51822_MODULE_1_N">
+<description>Original name &lt;b&gt;IC_nRF51822_MODULE_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="10.16" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">2</text>
+<pin name="GND@1" x="10.16" y="-7.62" visible="off" direction="pwr" rot="R90"/>
+<text x="49.53" y="30.48" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">13</text>
+<pin name="VSS@1" x="53.34" y="30.48" visible="off" direction="pwr" rot="R180"/>
+<text x="49.53" y="33.02" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">25</text>
+<pin name="VSS@2" x="53.34" y="33.02" visible="off" direction="pwr" rot="R180"/>
+<text x="-3.81" y="38.1" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">14</text>
+<pin name="VDD" x="-7.62" y="38.1" visible="off" direction="pwr"/>
+<text x="49.53" y="38.1" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">3</text>
+<pin name="AVDD" x="53.34" y="38.1" visible="off" direction="pwr" rot="R180"/>
+<text x="-3.81" y="33.02" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">16</text>
+<pin name="P0.30" x="-7.62" y="33.02" visible="off"/>
+<text x="-3.81" y="30.48" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">17</text>
+<pin name="P0.00/AREF0" x="-7.62" y="30.48" visible="off"/>
+<text x="-3.81" y="27.94" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">18</text>
+<pin name="P0.01/AIN2" x="-7.62" y="27.94" visible="off"/>
+<text x="-3.81" y="25.4" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">19</text>
+<pin name="P0.02/AIN3" x="-7.62" y="25.4" visible="off"/>
+<text x="-3.81" y="22.86" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">20</text>
+<pin name="P0.03/AIN4" x="-7.62" y="22.86" visible="off"/>
+<text x="-3.81" y="20.32" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">21</text>
+<pin name="P0.04/AIN5" x="-7.62" y="20.32" visible="off"/>
+<text x="-3.81" y="17.78" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">22</text>
+<pin name="P0.05/AIN6" x="-7.62" y="17.78" visible="off"/>
+<text x="-3.81" y="15.24" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">23</text>
+<pin name="P0.06/AIN7/AREF1" x="-7.62" y="15.24" visible="off"/>
+<text x="-3.81" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">24</text>
+<pin name="P0.07" x="-7.62" y="12.7" visible="off"/>
+<text x="12.7" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">26</text>
+<pin name="P0.08" x="12.7" y="-7.62" visible="off" rot="R90"/>
+<text x="15.24" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">27</text>
+<pin name="P0.09" x="15.24" y="-7.62" visible="off" rot="R90"/>
+<text x="17.78" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">28</text>
+<pin name="P0.10" x="17.78" y="-7.62" visible="off" rot="R90"/>
+<text x="20.32" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">29</text>
+<pin name="P0.11" x="20.32" y="-7.62" visible="off" rot="R90"/>
+<text x="30.48" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">4</text>
+<pin name="P0.21" x="30.48" y="53.34" visible="off" rot="R270"/>
+<text x="27.94" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">5</text>
+<pin name="P0.22" x="27.94" y="53.34" visible="off" rot="R270"/>
+<text x="25.4" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">6</text>
+<pin name="P0.23" x="25.4" y="53.34" visible="off" rot="R270"/>
+<text x="22.86" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">7</text>
+<pin name="P0.24" x="22.86" y="53.34" visible="off" rot="R270"/>
+<text x="20.32" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">8</text>
+<pin name="P0.25" x="20.32" y="53.34" visible="off" rot="R270"/>
+<text x="15.24" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">10</text>
+<pin name="P0.27/AIN1/XL1" x="15.24" y="53.34" visible="off" rot="R270"/>
+<text x="17.78" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">9</text>
+<pin name="P0.26/AIN0/XL2" x="17.78" y="53.34" visible="off" rot="R270"/>
+<text x="10.16" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">12</text>
+<pin name="P0.29" x="10.16" y="53.34" visible="off" rot="R270"/>
+<text x="12.7" y="49.53" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">11</text>
+<pin name="P0.28" x="12.7" y="53.34" visible="off" rot="R270"/>
+<text x="49.53" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">37</text>
+<pin name="P0.17" x="53.34" y="10.16" visible="off" rot="R180"/>
+<text x="49.53" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">38</text>
+<pin name="P0.18" x="53.34" y="12.7" visible="off" rot="R180"/>
+<text x="49.53" y="15.24" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">39</text>
+<pin name="P0.19" x="53.34" y="15.24" visible="off" rot="R180"/>
+<text x="49.53" y="17.78" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">40</text>
+<pin name="P0.20" x="53.34" y="17.78" visible="off" rot="R180"/>
+<text x="49.53" y="20.32" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">41</text>
+<pin name="DEC2" x="53.34" y="20.32" visible="off" direction="pwr" rot="R180"/>
+<text x="22.86" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">30</text>
+<pin name="P0.12" x="22.86" y="-7.62" visible="off" rot="R90"/>
+<text x="25.4" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">31</text>
+<pin name="P0.13" x="25.4" y="-7.62" visible="off" rot="R90"/>
+<text x="27.94" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">32</text>
+<pin name="P0.14" x="27.94" y="-7.62" visible="off" rot="R90"/>
+<text x="30.48" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">33</text>
+<pin name="P0.15" x="30.48" y="-7.62" visible="off" rot="R90"/>
+<text x="35.56" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">35</text>
+<pin name="SWDIO/NRESET" x="35.56" y="-7.62" visible="off" direction="in" rot="R90"/>
+<text x="38.1" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">36</text>
+<pin name="SWDCLK" x="38.1" y="-7.62" visible="off" direction="in" rot="R90"/>
+<text x="33.02" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">34</text>
+<pin name="P0.16" x="33.02" y="-7.62" visible="off" rot="R90"/>
+<text x="7.62" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="GND@2" x="7.62" y="-7.62" visible="off" direction="pwr" rot="R90"/>
+<text x="-3.81" y="35.56" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">15</text>
+<pin name="DCC" x="-7.62" y="35.56" visible="off" direction="pwr"/>
+<text x="5.08" y="-3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">42</text>
+<pin name="GND@3" x="5.08" y="-7.62" visible="off" direction="pwr" rot="R90"/>
+<wire x1="0" y1="0" x2="0" y2="45.72" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="45.72" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="45.72" x2="45.72" y2="45.72" width="0.254" layer="94"/>
+<wire x1="45.72" y1="45.72" x2="45.72" y2="0" width="0.254" layer="94"/>
+<text x="16.51" y="16.51" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">nRF51822</text>
+<text x="40.64" y="50.8" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_12K_0402_1%_1_N">
+<description>Original name &lt;b&gt;R_12K_0402_1%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_12K_0402_1%_1_I">
+<description>Original name &lt;b&gt;R_12K_0402_1%_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_12K_0402_1%_1_D">
+<description>Original name &lt;b&gt;R_12K_0402_1%_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_4U7_6V3_X5R_20%_0402_1_N">
+<description>Original name &lt;b&gt;CAP_4U7_6V3_X5R_20%_0402_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_4U7_6V3_X5R_20%_0402_1_I">
+<description>Original name &lt;b&gt;CAP_4U7_6V3_X5R_20%_0402_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_4U7_6V3_X5R_20%_0402_1_D">
+<description>Original name &lt;b&gt;CAP_4U7_6V3_X5R_20%_0402_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="IC_TPS73533DRBR_1_N">
+<description>Original name &lt;b&gt;IC_TPS73533DRBR_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-16.51" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="NR/FB" x="-20.32" y="5.08" visible="off" direction="pas"/>
+<text x="-16.51" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="GND@1" x="-20.32" y="2.54" visible="off" direction="pwr"/>
+<text x="11.43" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">5</text>
+<pin name="EN" x="15.24" y="2.54" visible="off" direction="in" rot="R180"/>
+<text x="11.43" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">6</text>
+<pin name="NC@1" x="15.24" y="5.08" visible="off" direction="pas" rot="R180"/>
+<text x="-16.51" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="NC@2" x="-20.32" y="7.62" visible="off" direction="pas"/>
+<text x="-16.51" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="OUT" x="-20.32" y="10.16" visible="off" direction="pwr"/>
+<text x="11.43" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">8</text>
+<pin name="IN" x="15.24" y="10.16" visible="off" direction="pwr" rot="R180"/>
+<text x="11.43" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">7</text>
+<pin name="N/C" x="15.24" y="7.62" visible="off" direction="pas" rot="R180"/>
+<text x="-16.51" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">9</text>
+<pin name="GND@2" x="-20.32" y="0" visible="off" direction="pwr"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<text x="-12.7" y="12.7" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="IC_TPS73533DRBR_1_I">
+<description>Original name &lt;b&gt;IC_TPS73533DRBR_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="-16.51" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="IN@1" x="-20.32" y="12.7" visible="off"/>
+<text x="-16.51" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="IN@2" x="-20.32" y="10.16" visible="off"/>
+<text x="16.51" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">5</text>
+<pin name="OUT@1" x="20.32" y="10.16" visible="off" rot="R180"/>
+<text x="16.51" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">6</text>
+<pin name="OUT@2" x="20.32" y="12.7" visible="off" rot="R180"/>
+<text x="-16.51" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="NRUN" x="-20.32" y="5.08" visible="off"/>
+<text x="-16.51" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="GND" x="-20.32" y="0" visible="off"/>
+<text x="-16.51" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">8</text>
+<pin name="NC_GND_" x="-20.32" y="2.54" visible="off"/>
+<text x="16.51" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">7</text>
+<pin name="SENSE" x="20.32" y="5.08" visible="off" rot="R180"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<text x="-12.7" y="12.7" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="IC_TPS73533DRBR_1_D">
+<description>Original name &lt;b&gt;IC_TPS73533DRBR_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="-16.51" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="IN@1" x="-20.32" y="12.7" visible="off"/>
+<text x="-16.51" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="IN@2" x="-20.32" y="10.16" visible="off"/>
+<text x="16.51" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">5</text>
+<pin name="OUT@1" x="20.32" y="10.16" visible="off" rot="R180"/>
+<text x="16.51" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">6</text>
+<pin name="OUT@2" x="20.32" y="12.7" visible="off" rot="R180"/>
+<text x="-16.51" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="NRUN" x="-20.32" y="5.08" visible="off"/>
+<text x="-16.51" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="GND" x="-20.32" y="0" visible="off"/>
+<text x="-16.51" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">8</text>
+<pin name="NC_GND_" x="-20.32" y="2.54" visible="off"/>
+<text x="16.51" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">7</text>
+<pin name="SENSE" x="20.32" y="5.08" visible="off" rot="R180"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<text x="-12.7" y="12.7" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_2.2NF_0402_1_N">
+<description>Original name &lt;b&gt;CAP_2.2nF_0402_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-1.016" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_2.2NF_0402_1_I">
+<description>Original name &lt;b&gt;CAP_2.2nF_0402_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-1.016" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_2.2NF_0402_1_D">
+<description>Original name &lt;b&gt;CAP_2.2nF_0402_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-1.016" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_1U_6V3_0402_10%_X6S_1_N">
+<description>Original name &lt;b&gt;CAP_1u_6V3_0402_10%_X6S_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.524" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_1U_6V3_0402_10%_X6S_1_I">
+<description>Original name &lt;b&gt;CAP_1u_6V3_0402_10%_X6S_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.524" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_1U_6V3_0402_10%_X6S_1_D">
+<description>Original name &lt;b&gt;CAP_1u_6V3_0402_10%_X6S_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.524" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="IC_MKL26Z128VFM4_1_N">
+<description>Original name &lt;b&gt;IC_MKL26Z128VFM4_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-12.7" y="20.32" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">8</text>
+<pin name="VSSA" x="-15.24" y="20.32" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="22.86" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">7</text>
+<pin name="VDDA" x="-15.24" y="22.86" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="25.4" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">6</text>
+<pin name="VREGIN" x="-15.24" y="25.4" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="27.94" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">5</text>
+<pin name="VOUT33" x="-15.24" y="27.94" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="30.48" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="USB0_DM" x="-15.24" y="30.48" visible="off" length="middle"/>
+<text x="-12.7" y="33.02" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="USB0_DP" x="-15.24" y="33.02" visible="off" length="middle"/>
+<text x="-12.7" y="35.56" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="VSS@1" x="-15.24" y="35.56" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="38.1" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="PTE0" x="-15.24" y="38.1" visible="off" length="middle"/>
+<text x="-12.7" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">12</text>
+<pin name="PTA2" x="-15.24" y="5.08" visible="off" length="middle"/>
+<text x="-12.7" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">11</text>
+<pin name="PTA1" x="-15.24" y="7.62" visible="off" length="middle"/>
+<text x="-12.7" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">10</text>
+<pin name="PTA0" x="-15.24" y="10.16" visible="off" length="middle"/>
+<text x="-12.7" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">9</text>
+<pin name="PTE30" x="-15.24" y="12.7" visible="off" length="middle"/>
+<text x="-12.7" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">16</text>
+<pin name="VSS@2" x="-15.24" y="-5.08" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">15</text>
+<pin name="VDD" x="-15.24" y="-2.54" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">14</text>
+<pin name="PTA4" x="-15.24" y="0" visible="off" length="middle"/>
+<text x="-12.7" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">13</text>
+<pin name="PTA3" x="-15.24" y="2.54" visible="off" length="middle"/>
+<text x="33.02" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">20</text>
+<pin name="PTB0/LLWU_P5" x="35.56" y="2.54" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">19</text>
+<pin name="PTA20" x="35.56" y="0" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">18</text>
+<pin name="PTA19" x="35.56" y="-2.54" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">17</text>
+<pin name="PTA18" x="35.56" y="-5.08" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">24</text>
+<pin name="PTC3/LLWU_P7" x="35.56" y="12.7" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">23</text>
+<pin name="PTC2" x="35.56" y="10.16" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">22</text>
+<pin name="PTC1/LLWU_P6/RTC_CLKIN" x="35.56" y="7.62" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">21</text>
+<pin name="PTB1" x="35.56" y="5.08" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="38.1" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">32</text>
+<pin name="PTD7" x="35.56" y="38.1" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="35.56" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">31</text>
+<pin name="PTD6/LLWU_P15" x="35.56" y="35.56" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="33.02" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">30</text>
+<pin name="PTD5" x="35.56" y="33.02" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="30.48" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">29</text>
+<pin name="PTD4/LLWU_P14" x="35.56" y="30.48" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="27.94" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">28</text>
+<pin name="PTC7" x="35.56" y="27.94" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="25.4" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">27</text>
+<pin name="PTC6/LLWU_P10" x="35.56" y="25.4" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="22.86" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">26</text>
+<pin name="PTC5/LLWU_P9" x="35.56" y="22.86" visible="off" length="middle" rot="R180"/>
+<text x="33.02" y="20.32" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">25</text>
+<pin name="PTC4/LLWU_P8" x="35.56" y="20.32" visible="off" length="middle" rot="R180"/>
+<text x="-12.7" y="-10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">33</text>
+<pin name="PAD" x="-15.24" y="-10.16" visible="off" length="middle" direction="pwr"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="40.64" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="30.48" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="40.64" x2="30.48" y2="40.64" width="0.254" layer="94"/>
+<wire x1="30.48" y1="40.64" x2="30.48" y2="-12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="40.64" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="IC_MAG3110FCR1_1_N">
+<description>Original name &lt;b&gt;IC_MAG3110FCR1_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-7.62" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="CAP-A" x="-10.16" y="5.08" visible="off" length="middle" direction="pas"/>
+<text x="-7.62" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="VDD" x="-10.16" y="2.54" visible="off" length="middle" direction="pwr"/>
+<text x="-7.62" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="NC" x="-10.16" y="0" visible="off" length="middle" direction="pas"/>
+<text x="-7.62" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="CAP-R" x="-10.16" y="-2.54" visible="off" length="middle" direction="pas"/>
+<text x="-7.62" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">5</text>
+<pin name="GND@1" x="-10.16" y="-5.08" visible="off" length="middle" direction="pwr"/>
+<text x="15.24" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">6</text>
+<pin name="SDA" x="17.78" y="-5.08" visible="off" length="middle" rot="R180"/>
+<text x="15.24" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">7</text>
+<pin name="SCL" x="17.78" y="-2.54" visible="off" length="middle" rot="R180"/>
+<text x="15.24" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">8</text>
+<pin name="VDDIO" x="17.78" y="0" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="15.24" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">9</text>
+<pin name="INT1" x="17.78" y="2.54" visible="off" length="middle" direction="oc" rot="R180"/>
+<text x="15.24" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">10</text>
+<pin name="GND@2" x="17.78" y="5.08" visible="off" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<text x="12.7" y="7.62" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="IC_MMA8653FCR1_1_N">
+<description>Original name &lt;b&gt;IC_MMA8653FCR1_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-12.7" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="VDD" x="-15.24" y="5.08" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="SCL" x="-15.24" y="2.54" visible="off" length="middle"/>
+<text x="-12.7" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="INT1" x="-15.24" y="0" visible="off" length="middle" direction="oc"/>
+<text x="-12.7" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="BYP" x="-15.24" y="-2.54" visible="off" length="middle" direction="pas"/>
+<text x="-12.7" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">5</text>
+<pin name="INT2" x="-15.24" y="-5.08" visible="off" length="middle" direction="oc"/>
+<text x="15.24" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">6</text>
+<pin name="GND@1" x="17.78" y="-5.08" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="15.24" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">7</text>
+<pin name="GND@2" x="17.78" y="-2.54" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="15.24" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">8</text>
+<pin name="VDDIO" x="17.78" y="0" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="15.24" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">9</text>
+<pin name="GND@3" x="17.78" y="2.54" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="15.24" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">10</text>
+<pin name="SDA" x="17.78" y="5.08" visible="off" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<text x="10.16" y="7.62" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_ESD_PRTR5V0U2F_115_1_N">
+<description>Original name &lt;b&gt;D_ESD_PRTR5V0U2F_115_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-8.89" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="1" x="-10.16" y="5.08" visible="off" length="short" direction="pas"/>
+<text x="-8.89" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="2" x="-10.16" y="0" visible="off" length="short" direction="pas"/>
+<text x="-8.89" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="3" x="-10.16" y="-5.08" visible="off" length="short" direction="pas"/>
+<text x="6.35" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">4</text>
+<pin name="4" x="7.62" y="-5.08" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="6.35" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">5</text>
+<pin name="5" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="6.35" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">6</text>
+<pin name="6" x="7.62" y="5.08" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="0"/>
+<vertex x="-1.27" y="-1.27"/>
+<vertex x="-1.27" y="1.27"/>
+</polygon>
+<wire x1="-1.27" y1="0" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-3.81" y="2.54"/>
+<vertex x="-5.08" y="1.27"/>
+<vertex x="-5.08" y="3.81"/>
+</polygon>
+<wire x1="-5.08" y1="2.54" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="2.54"/>
+<vertex x="1.27" y="1.27"/>
+<vertex x="1.27" y="3.81"/>
+</polygon>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="-3.81" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-3.81" y="-2.54"/>
+<vertex x="-5.08" y="-3.81"/>
+<vertex x="-5.08" y="-1.27"/>
+</polygon>
+<wire x1="-5.08" y1="-2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="-2.54"/>
+<vertex x="1.27" y="-3.81"/>
+<vertex x="1.27" y="-1.27"/>
+</polygon>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_ESD_PRTR5V0U2F_115_1_I">
+<description>Original name &lt;b&gt;D_ESD_PRTR5V0U2F_115_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="K" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-0.508" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0.508" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.508" y1="-2.54" x2="0.508" y2="-2.032" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="0"/>
+<vertex x="-2.54" y="-2.54"/>
+<vertex x="-2.54" y="2.54"/>
+</polygon>
+<text x="-7.62" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_ESD_PRTR5V0U2F_115_1_D">
+<description>Original name &lt;b&gt;D_ESD_PRTR5V0U2F_115_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="K" x="7.62" y="0" visible="off" length="middle" rot="R180"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="2.54" x2="-0.508" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0.508" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.508" y1="-2.54" x2="0.508" y2="-2.032" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="0"/>
+<vertex x="-2.54" y="-2.54"/>
+<vertex x="-2.54" y="2.54"/>
+</polygon>
+<text x="-7.62" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_BAT60A_E6327_1_N">
+<description>Original name &lt;b&gt;D_BAT60A_E6327_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="-8.89" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">2</text>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="0" y="-19.05" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="K" x="0" y="-20.32" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-14.986"/>
+<vertex x="2.286" y="-15.24"/>
+<vertex x="-2.286" y="-15.24"/>
+<vertex x="-2.286" y="-14.986"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-12.446"/>
+<vertex x="0" y="-14.732"/>
+<vertex x="-2.286" y="-12.446"/>
+</polygon>
+<wire x1="-2.286" y1="-15.24" x2="-2.286" y2="-14.224" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-15.24" x2="2.286" y2="-16.002" width="0.254" layer="94"/>
+<text x="2.54" y="-12.446" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_BAT60A_E6327_1_I">
+<description>Original name &lt;b&gt;D_BAT60A_E6327_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">A</text>
+<pin name="A" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<text x="0" y="-19.05" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">K</text>
+<pin name="K" x="0" y="-20.32" visible="off" length="short" rot="R90"/>
+<text x="0" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">AK</text>
+<pin name="AK" x="-0.0254" y="-7.62" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-2.286"/>
+<vertex x="2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="0.254"/>
+<vertex x="0" y="-2.032"/>
+<vertex x="-2.286" y="0.254"/>
+</polygon>
+<wire x1="0" y1="-10.16" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-14.986"/>
+<vertex x="2.286" y="-15.24"/>
+<vertex x="-2.286" y="-15.24"/>
+<vertex x="-2.286" y="-14.986"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-12.446"/>
+<vertex x="0" y="-14.732"/>
+<vertex x="-2.286" y="-12.446"/>
+</polygon>
+<wire x1="0" y1="-7.874" x2="0" y2="-7.366" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-2.54" x2="-2.286" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-15.24" x2="-2.286" y2="-14.224" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-15.24" x2="2.286" y2="-16.002" width="0.254" layer="94"/>
+<text x="2.54" y="-12.446" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_BAT60A_E6327_1_D">
+<description>Original name &lt;b&gt;D_BAT60A_E6327_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">A</text>
+<pin name="A" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<text x="0" y="-19.05" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">K</text>
+<pin name="K" x="0" y="-20.32" visible="off" length="short" rot="R90"/>
+<text x="0" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">AK</text>
+<pin name="AK" x="-0.0254" y="-7.62" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-2.286"/>
+<vertex x="2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="0.254"/>
+<vertex x="0" y="-2.032"/>
+<vertex x="-2.286" y="0.254"/>
+</polygon>
+<wire x1="0" y1="-10.16" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-14.986"/>
+<vertex x="2.286" y="-15.24"/>
+<vertex x="-2.286" y="-15.24"/>
+<vertex x="-2.286" y="-14.986"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-12.446"/>
+<vertex x="0" y="-14.732"/>
+<vertex x="-2.286" y="-12.446"/>
+</polygon>
+<wire x1="0" y1="-7.874" x2="0" y2="-7.366" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-2.54" x2="-2.286" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-15.24" x2="-2.286" y2="-14.224" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-15.24" x2="2.286" y2="-16.002" width="0.254" layer="94"/>
+<text x="2.54" y="-12.446" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="SW_SPST_6MM_1_N">
+<description>Original name &lt;b&gt;SW_SPST_6MM_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="6.604" y1="2.032" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="2.286" y="2.286" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="SW_SPST_6MM_1_I">
+<description>Original name &lt;b&gt;SW_SPST_6MM_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="6.604" y1="2.032" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="2.286" y="2.286" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="SW_SPST_6MM_1_D">
+<description>Original name &lt;b&gt;SW_SPST_6MM_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="6.604" y1="2.032" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="2.286" y="2.286" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="XTAL_16MHZ_3.2X2.5MM_1_N">
+<description>Original name &lt;b&gt;XTAL_16MHZ_3.2X2.5MM_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-1.27" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="X1" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<text x="8.89" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">3</text>
+<pin name="X3" x="10.16" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="2.54" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">2</text>
+<pin name="G2" x="2.54" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="5.08" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">4</text>
+<pin name="G4" x="5.08" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="-3.81"/>
+<vertex x="5.08" y="-3.81"/>
+<vertex x="5.08" y="-1.27"/>
+<vertex x="2.54" y="-1.27"/>
+</polygon>
+<wire x1="5.588" y1="-1.778" x2="5.588" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-1.778" x2="2.032" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.032" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="XTAL_16MHZ_3.2X2.5MM_1_I">
+<description>Original name &lt;b&gt;XTAL_16MHZ_3.2X2.5MM_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="-1.27" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="X1" x="-2.54" y="-2.54" visible="off" length="short"/>
+<text x="8.89" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">3</text>
+<pin name="X3" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
+<text x="2.54" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">2</text>
+<pin name="G2" x="2.54" y="-7.62" visible="off" length="short" rot="R90"/>
+<text x="5.08" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">4</text>
+<pin name="G4" x="5.08" y="-7.62" visible="off" length="short" rot="R90"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="-3.81"/>
+<vertex x="5.08" y="-3.81"/>
+<vertex x="5.08" y="-1.27"/>
+<vertex x="2.54" y="-1.27"/>
+</polygon>
+<wire x1="5.588" y1="-1.778" x2="5.588" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-1.778" x2="2.032" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.032" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="XTAL_16MHZ_3.2X2.5MM_1_D">
+<description>Original name &lt;b&gt;XTAL_16MHZ_3.2X2.5MM_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="-1.27" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="X1" x="-2.54" y="-2.54" visible="off" length="short"/>
+<text x="8.89" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">3</text>
+<pin name="X3" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
+<text x="2.54" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">2</text>
+<pin name="G2" x="2.54" y="-7.62" visible="off" length="short" rot="R90"/>
+<text x="5.08" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">4</text>
+<pin name="G4" x="5.08" y="-7.62" visible="off" length="short" rot="R90"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.54" y="-3.81"/>
+<vertex x="5.08" y="-3.81"/>
+<vertex x="5.08" y="-1.27"/>
+<vertex x="2.54" y="-1.27"/>
+</polygon>
+<wire x1="5.588" y1="-1.778" x2="5.588" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-1.778" x2="2.032" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.032" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_12PF_25V_0402_1_N">
+<description>Original name &lt;b&gt;CAP_12PF_25V_0402_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-1.016" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.556" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_12PF_25V_0402_1_I">
+<description>Original name &lt;b&gt;CAP_12PF_25V_0402_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-1.016" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.556" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_12PF_25V_0402_1_D">
+<description>Original name &lt;b&gt;CAP_12PF_25V_0402_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-1.016" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.556" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_GREEN_1_N">
+<description>Original name &lt;b&gt;LED_0603_GREEN_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.778" y="2.286"/>
+<vertex x="2.032" y="2.286"/>
+<vertex x="2.032" y="-2.286"/>
+<vertex x="1.778" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_GREEN_1_I">
+<description>Original name &lt;b&gt;LED_0603_GREEN_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.778" y="2.286"/>
+<vertex x="2.032" y="2.286"/>
+<vertex x="2.032" y="-2.286"/>
+<vertex x="1.778" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_GREEN_1_D">
+<description>Original name &lt;b&gt;LED_0603_GREEN_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.778" y="2.286"/>
+<vertex x="2.032" y="2.286"/>
+<vertex x="2.032" y="-2.286"/>
+<vertex x="1.778" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_BLUE_1_N">
+<description>Original name &lt;b&gt;LED_0603_BLUE_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.778" y="2.286"/>
+<vertex x="2.032" y="2.286"/>
+<vertex x="2.032" y="-2.286"/>
+<vertex x="1.778" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_BLUE_1_I">
+<description>Original name &lt;b&gt;LED_0603_BLUE_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.778" y="2.286"/>
+<vertex x="2.032" y="2.286"/>
+<vertex x="2.032" y="-2.286"/>
+<vertex x="1.778" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_BLUE_1_D">
+<description>Original name &lt;b&gt;LED_0603_BLUE_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.778" y="2.286"/>
+<vertex x="2.032" y="2.286"/>
+<vertex x="2.032" y="-2.286"/>
+<vertex x="1.778" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_RED_1_N">
+<description>Original name &lt;b&gt;LED_0603_RED_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.762" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<wire x1="1.778" y1="2.286" x2="2.032" y2="2.286" width="0.254" layer="94"/>
+<wire x1="2.032" y1="2.286" x2="2.032" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-2.286" x2="1.778" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-2.286" x2="1.778" y2="2.286" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<wire x1="2.032" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_RED_1_I">
+<description>Original name &lt;b&gt;LED_0603_RED_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-2.5654" y="2.54" visible="off" length="short"/>
+<pin name="K" x="2.5654" y="-2.54" visible="off" length="short" rot="R180"/>
+<wire x1="2.54" y1="0" x2="2.286" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.016" x2="0.762" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0.508" y="2.032"/>
+<vertex x="0.508" y="-0.508"/>
+<vertex x="-2.032" y="-0.508"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="0.508"/>
+<vertex x="3.048" y="0.508"/>
+<vertex x="3.048" y="-0.254"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="1.524"/>
+<vertex x="1.524" y="1.524"/>
+<vertex x="1.524" y="0.762"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="LED_0603_RED_1_D">
+<description>Original name &lt;b&gt;LED_0603_RED_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="K" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="3.048" y1="4.064" x2="2.032" y2="3.048" width="0.254" layer="94"/>
+<wire x1="1.016" y1="4.064" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.762" y="2.286"/>
+<vertex x="1.778" y="0"/>
+<vertex x="-0.762" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="1.778" y="2.286"/>
+<vertex x="2.032" y="2.286"/>
+<vertex x="2.032" y="-2.286"/>
+<vertex x="1.778" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.794" y="4.572"/>
+<vertex x="3.556" y="4.572"/>
+<vertex x="3.556" y="3.81"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="0.762" y="4.572"/>
+<vertex x="1.524" y="4.572"/>
+<vertex x="1.524" y="3.81"/>
+</polygon>
+<text x="-2.794" y="4.826" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_1K_0402_5%_1_N">
+<description>Original name &lt;b&gt;R_1K_0402_5%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_1K_0402_5%_1_I">
+<description>Original name &lt;b&gt;R_1K_0402_5%_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_1K_0402_5%_1_D">
+<description>Original name &lt;b&gt;R_1K_0402_5%_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_USB_MICRO_AB_MOLEX_1_N">
+<description>Original name &lt;b&gt;CON_USB_MICRO_AB_MOLEX_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-10.16" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="VBUS" x="-10.16" y="-5.08" visible="off" length="middle" rot="R90"/>
+<text x="-7.62" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">2</text>
+<pin name="UDC-" x="-7.62" y="-5.08" visible="off" length="middle" rot="R90"/>
+<text x="-5.08" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">3</text>
+<pin name="UDC+" x="-5.08" y="-5.08" visible="off" length="middle" rot="R90"/>
+<text x="0" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">5</text>
+<pin name="GND" x="0" y="-5.08" visible="off" length="middle" direction="pwr" rot="R90"/>
+<text x="5.08" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">H0</text>
+<pin name="H0" x="7.62" y="0" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="5.08" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">H1</text>
+<pin name="H1" x="7.62" y="2.54" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="-2.54" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">4</text>
+<pin name="ID" x="-2.54" y="-5.08" visible="off" length="middle" rot="R90"/>
+<text x="5.08" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">H3</text>
+<pin name="H3" x="7.62" y="7.62" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="5.08" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">H2</text>
+<pin name="H2" x="7.62" y="5.08" visible="off" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="0" width="0.254" layer="94"/>
+<text x="-12.7" y="10.16" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_33R_0402_5%_1_N">
+<description>Original name &lt;b&gt;R_33R_0402_5%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-7.874" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_33R_0402_5%_1_I">
+<description>Original name &lt;b&gt;R_33R_0402_5%_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-7.874" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_33R_0402_5%_1_D">
+<description>Original name &lt;b&gt;R_33R_0402_5%_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-7.874" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_4K7_0402_5%_1_N">
+<description>Original name &lt;b&gt;R_4K7_0402_5%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_4K7_0402_5%_1_I">
+<description>Original name &lt;b&gt;R_4K7_0402_5%_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_4K7_0402_5%_1_D">
+<description>Original name &lt;b&gt;R_4K7_0402_5%_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_22PF_0402_1_N">
+<description>Original name &lt;b&gt;CAP_22pF_0402_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_22PF_0402_1_I">
+<description>Original name &lt;b&gt;CAP_22pF_0402_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_22PF_0402_1_D">
+<description>Original name &lt;b&gt;CAP_22pF_0402_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<text x="0" y="-2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_10K_0402_5%_1_N">
+<description>Original name &lt;b&gt;R_10K_0402_5%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_10K_0402_5%_1_I">
+<description>Original name &lt;b&gt;R_10K_0402_5%_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_10K_0402_5%_1_D">
+<description>Original name &lt;b&gt;R_10K_0402_5%_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_100N_25V_0402_10%_X5R_1_N">
+<description>Original name &lt;b&gt;CAP_100N_25V_0402_10%_X5R_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.524" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_100N_25V_0402_10%_X5R_1_I">
+<description>Original name &lt;b&gt;CAP_100N_25V_0402_10%_X5R_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.524" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CAP_100N_25V_0402_10%_X5R_1_D">
+<description>Original name &lt;b&gt;CAP_100N_25V_0402_10%_X5R_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<wire x1="0" y1="-4.318" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-4.318" x2="2.286" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-3.302" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<circle x="-0.762" y="-1.524" radius="0.254" width="0.254" layer="94"/>
+<text x="2.54" y="-3.81" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_JST_2MM_2W_SMD_H_1_N">
+<description>Original name &lt;b&gt;CON_JST_2MM_2W_SMD_H_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off" direction="pas"/>
+<pin name="2" x="0" y="-2.54" visible="off" direction="pas"/>
+<pin name="P1" x="10.16" y="-15.24" visible="off" direction="pas" rot="R90"/>
+<pin name="P2" x="12.7" y="-15.24" visible="off" direction="pas" rot="R90"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<text x="7.62" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_JST_2MM_2W_SMD_H_1_I">
+<description>Original name &lt;b&gt;CON_JST_2MM_2W_SMD_H_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off"/>
+<pin name="2" x="0" y="-2.54" visible="off"/>
+<pin name="3" x="0" y="-5.08" visible="off"/>
+<pin name="4" x="0" y="-7.62" visible="off"/>
+<pin name="5" x="0" y="-10.16" visible="off"/>
+<pin name="6" x="0" y="-12.7" visible="off"/>
+<pin name="7" x="0" y="-15.24" visible="off"/>
+<pin name="8" x="0" y="-17.78" visible="off"/>
+<pin name="11" x="0" y="-25.4" visible="off"/>
+<pin name="12" x="0" y="-27.94" visible="off"/>
+<pin name="9" x="0" y="-20.32" visible="off"/>
+<pin name="10" x="0" y="-22.86" visible="off"/>
+<pin name="P1" x="10.16" y="-40.64" visible="off" rot="R90"/>
+<pin name="P2" x="12.7" y="-40.64" visible="off" rot="R90"/>
+<wire x1="7.62" y1="-33.02" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<text x="7.62" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_JST_2MM_2W_SMD_H_1_D">
+<description>Original name &lt;b&gt;CON_JST_2MM_2W_SMD_H_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0" visible="off"/>
+<pin name="2" x="0" y="-2.54" visible="off"/>
+<pin name="3" x="0" y="-5.08" visible="off"/>
+<pin name="4" x="0" y="-7.62" visible="off"/>
+<pin name="5" x="0" y="-10.16" visible="off"/>
+<pin name="6" x="0" y="-12.7" visible="off"/>
+<pin name="7" x="0" y="-15.24" visible="off"/>
+<pin name="8" x="0" y="-17.78" visible="off"/>
+<pin name="11" x="0" y="-25.4" visible="off"/>
+<pin name="12" x="0" y="-27.94" visible="off"/>
+<pin name="9" x="0" y="-20.32" visible="off"/>
+<pin name="10" x="0" y="-22.86" visible="off"/>
+<pin name="P1" x="10.16" y="-40.64" visible="off" rot="R90"/>
+<pin name="P2" x="12.7" y="-40.64" visible="off" rot="R90"/>
+<wire x1="7.62" y1="-33.02" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<text x="7.62" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_220R_0603_1%_1_N">
+<description>Original name &lt;b&gt;R_220R_0603_1%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_220R_0603_1%_1_I">
+<description>Original name &lt;b&gt;R_220R_0603_1%_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_220R_0603_1%_1_D">
+<description>Original name &lt;b&gt;R_220R_0603_1%_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_6X1_0.1IN_1_N">
+<description>Original name &lt;b&gt;CON_HDR_6X1_0.1IN_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="-7.62" visible="off" length="middle" direction="pas"/>
+<pin name="4" x="-5.08" y="-10.16" visible="off" length="middle" direction="pas"/>
+<pin name="5" x="-5.08" y="-12.7" visible="off" length="middle" direction="pas"/>
+<pin name="6" x="-5.08" y="-15.24" visible="off" length="middle" direction="pas"/>
+<wire x1="0" y1="-17.78" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_6X1_0.1IN_1_I">
+<description>Original name &lt;b&gt;CON_HDR_6X1_0.1IN_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<pin name="3" x="-5.08" y="-7.62" visible="off" length="middle"/>
+<pin name="4" x="-5.08" y="-10.16" visible="off" length="middle"/>
+<pin name="5" x="-5.08" y="-12.7" visible="off" length="middle"/>
+<wire x1="0" y1="-15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_6X1_0.1IN_1_D">
+<description>Original name &lt;b&gt;CON_HDR_6X1_0.1IN_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<pin name="3" x="-5.08" y="-7.62" visible="off" length="middle"/>
+<pin name="4" x="-5.08" y="-10.16" visible="off" length="middle"/>
+<pin name="5" x="-5.08" y="-12.7" visible="off" length="middle"/>
+<wire x1="0" y1="-15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="BAT_CR2032_1_1_N">
+<description>Original name &lt;b&gt;BAT_CR2032_1_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="8.89" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">POS1</text>
+<pin name="POS1" x="0" y="12.7" visible="off" direction="out" rot="R270"/>
+<text x="0" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">NEG</text>
+<pin name="NEG" x="0" y="-10.16" visible="off" direction="out" rot="R90"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="5.08" width="0.381" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-2.54" y2="7.62" width="0.381" layer="94"/>
+<text x="-17.78" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="BAT_CR2032_1_1_I">
+<description>Original name &lt;b&gt;BAT_CR2032_1_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="8.89" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">POS</text>
+<pin name="POS" x="0" y="12.7" visible="off" rot="R270"/>
+<pin name="NEG" x="0" y="-25.4" visible="off" rot="R90"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.381" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="5.08" width="0.381" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-2.54" y2="7.62" width="0.381" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-7.62" width="0.381" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.381" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-7.62" width="0.381" layer="94"/>
+<text x="-17.78" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="BAT_CR2032_1_1_D">
+<description>Original name &lt;b&gt;BAT_CR2032_1_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="8.89" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">POS</text>
+<pin name="POS" x="0" y="12.7" visible="off" rot="R270"/>
+<pin name="NEG" x="0" y="-25.4" visible="off" rot="R90"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="0" x2="5.08" y2="0" width="0.381" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="5.08" width="0.381" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-2.54" y2="7.62" width="0.381" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-7.62" width="0.381" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.381" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-7.62" width="0.381" layer="94"/>
+<text x="-17.78" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_BAT43WS-7-F_1_N">
+<description>Original name &lt;b&gt;D_BAT43WS-7-F_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="-8.89" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">2</text>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<text x="0" y="-19.05" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="K" x="0" y="-20.32" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-14.986"/>
+<vertex x="2.286" y="-15.24"/>
+<vertex x="-2.286" y="-15.24"/>
+<vertex x="-2.286" y="-14.986"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-12.446"/>
+<vertex x="0" y="-14.732"/>
+<vertex x="-2.286" y="-12.446"/>
+</polygon>
+<wire x1="-2.286" y1="-15.24" x2="-2.286" y2="-14.224" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-15.24" x2="2.286" y2="-16.002" width="0.254" layer="94"/>
+<text x="2.54" y="-12.446" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_BAT43WS-7-F_1_I">
+<description>Original name &lt;b&gt;D_BAT43WS-7-F_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">A</text>
+<pin name="A" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<text x="0" y="-19.05" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">K</text>
+<pin name="K" x="0" y="-20.32" visible="off" length="short" rot="R90"/>
+<text x="0" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">AK</text>
+<pin name="AK" x="-0.0254" y="-7.62" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-2.286"/>
+<vertex x="2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="0.254"/>
+<vertex x="0" y="-2.032"/>
+<vertex x="-2.286" y="0.254"/>
+</polygon>
+<wire x1="0" y1="-10.16" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-14.986"/>
+<vertex x="2.286" y="-15.24"/>
+<vertex x="-2.286" y="-15.24"/>
+<vertex x="-2.286" y="-14.986"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-12.446"/>
+<vertex x="0" y="-14.732"/>
+<vertex x="-2.286" y="-12.446"/>
+</polygon>
+<wire x1="-0.254" y1="-7.62" x2="0.254" y2="-7.62" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-2.54" x2="-2.286" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-15.24" x2="-2.286" y2="-14.224" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-15.24" x2="2.286" y2="-16.002" width="0.254" layer="94"/>
+<text x="2.54" y="-12.446" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="D_BAT43WS-7-F_1_D">
+<description>Original name &lt;b&gt;D_BAT43WS-7-F_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="3.81" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">A</text>
+<pin name="A" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<text x="0" y="-19.05" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">K</text>
+<pin name="K" x="0" y="-20.32" visible="off" length="short" rot="R90"/>
+<text x="0" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">AK</text>
+<pin name="AK" x="-0.0254" y="-7.62" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-2.286"/>
+<vertex x="2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.54"/>
+<vertex x="-2.286" y="-2.286"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="0.254"/>
+<vertex x="0" y="-2.032"/>
+<vertex x="-2.286" y="0.254"/>
+</polygon>
+<wire x1="0" y1="-10.16" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-14.986"/>
+<vertex x="2.286" y="-15.24"/>
+<vertex x="-2.286" y="-15.24"/>
+<vertex x="-2.286" y="-14.986"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="-12.446"/>
+<vertex x="0" y="-14.732"/>
+<vertex x="-2.286" y="-12.446"/>
+</polygon>
+<wire x1="-0.254" y1="-7.62" x2="0.254" y2="-7.62" width="0.254" layer="94" curve="180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-2.54" x2="-2.286" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.286" x2="2.286" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-15.24" x2="-2.286" y2="-14.224" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-15.24" x2="2.286" y2="-16.002" width="0.254" layer="94"/>
+<text x="2.54" y="-12.446" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="L_FERRITE_600R_400MA_1_N">
+<description>Original name &lt;b&gt;L_FERRITE_600R_400mA_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">1</text>
+<pin name="1" x="0" y="10.16" visible="off" length="middle" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-10.16" visible="off" length="middle" direction="pas" rot="R90"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="-3.81" x2="0" y2="-2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="1.27" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="L_FERRITE_600R_400MA_1_I">
+<description>Original name &lt;b&gt;L_FERRITE_600R_400mA_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">1</text>
+<pin name="1" x="0" y="10.16" visible="off" length="middle" rot="R270"/>
+<pin name="2" x="0" y="-10.16" visible="off" length="middle" rot="R90"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="-3.81" x2="0" y2="-2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="1.27" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="L_FERRITE_600R_400MA_1_D">
+<description>Original name &lt;b&gt;L_FERRITE_600R_400mA_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">1</text>
+<pin name="1" x="0" y="10.16" visible="off" length="middle" rot="R270"/>
+<pin name="2" x="0" y="-10.16" visible="off" length="middle" rot="R90"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90"/>
+<wire x1="1.27" y1="-3.81" x2="0" y2="-2.54" width="0.254" layer="94" curve="90"/>
+<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
+<text x="1.27" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_10M_0402_5%_1_N">
+<description>Original name &lt;b&gt;R_10M_0402_5%_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_10M_0402_5%_1_I">
+<description>Original name &lt;b&gt;R_10M_0402_5%_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="R_10M_0402_5%_1_D">
+<description>Original name &lt;b&gt;R_10M_0402_5%_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="5.08" y1="0" x2="4.318" y2="0.762" width="0.254" layer="94"/>
+<wire x1="4.318" y1="0.762" x2="2.794" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.794" y1="-0.762" x2="1.27" y2="0.762" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.794" y="1.016" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_23X1_1_N">
+<description>Original name &lt;b&gt;CON_HDR_23X1_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="2.54" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="1" x="0" y="-2.54" visible="off" length="middle" direction="pwr"/>
+<text x="2.54" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="2" x="0" y="0" visible="off" length="middle" direction="pwr"/>
+<text x="2.54" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="3" x="0" y="-5.08" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="4" x="0" y="-7.62" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">5</text>
+<pin name="5" x="0" y="-10.16" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">6</text>
+<pin name="6" x="0" y="-12.7" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-15.24" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">7</text>
+<pin name="7" x="0" y="-15.24" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-17.78" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">8</text>
+<pin name="8" x="0" y="-17.78" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-20.32" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">9</text>
+<pin name="9" x="0" y="-20.32" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-22.86" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">10</text>
+<pin name="10" x="0" y="-22.86" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-25.4" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">11</text>
+<pin name="11" x="0" y="-25.4" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-27.94" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">12</text>
+<pin name="12" x="0" y="-27.94" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-30.48" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">13</text>
+<pin name="13" x="0" y="-30.48" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-33.02" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">14</text>
+<pin name="14" x="0" y="-33.02" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-35.56" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">15</text>
+<pin name="15" x="0" y="-35.56" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-38.1" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">16</text>
+<pin name="16" x="0" y="-38.1" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-40.64" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">17</text>
+<pin name="17" x="0" y="-40.64" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-43.18" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">18</text>
+<pin name="18" x="0" y="-43.18" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-45.72" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">19</text>
+<pin name="19" x="0" y="-45.72" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-48.26" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">20</text>
+<pin name="20" x="0" y="-48.26" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">0</text>
+<pin name="21" x="0" y="2.54" visible="off" length="middle" direction="pwr"/>
+<text x="2.54" y="-50.8" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">21</text>
+<pin name="22" x="0" y="-50.8" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-53.34" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">22</text>
+<pin name="23" x="0" y="-53.34" visible="off" length="middle" direction="pas"/>
+<wire x1="5.08" y1="-55.88" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-55.88" x2="7.62" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-55.88" width="0.254" layer="94"/>
+<text x="5.08" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_23X1_1_I">
+<description>Original name &lt;b&gt;CON_HDR_23X1_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="-2.54" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="VDD_5V" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<text x="-2.54" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="GND@1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<text x="-2.54" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="RS" x="-5.08" y="-7.62" visible="off" length="middle"/>
+<text x="-2.54" y="-10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="VAR" x="-5.08" y="-10.16" visible="off" length="middle"/>
+<text x="-2.54" y="-12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">5</text>
+<pin name="E1" x="-5.08" y="-12.7" visible="off" length="middle"/>
+<text x="-2.54" y="-15.24" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">6</text>
+<pin name="GND@2" x="-5.08" y="-15.24" visible="off" length="middle"/>
+<text x="-2.54" y="-17.78" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">7</text>
+<pin name="D0" x="-5.08" y="-17.78" visible="off" length="middle"/>
+<text x="-2.54" y="-20.32" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">8</text>
+<pin name="D1" x="-5.08" y="-20.32" visible="off" length="middle"/>
+<text x="-2.54" y="-22.86" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">9</text>
+<pin name="D2" x="-5.08" y="-22.86" visible="off" length="middle"/>
+<text x="-2.54" y="-25.4" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">10</text>
+<pin name="D3" x="-5.08" y="-25.4" visible="off" length="middle"/>
+<text x="-2.54" y="-27.94" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">11</text>
+<pin name="D4" x="-5.08" y="-27.94" visible="off" length="middle"/>
+<text x="-2.54" y="-30.48" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">12</text>
+<pin name="D5" x="-5.08" y="-30.48" visible="off" length="middle"/>
+<text x="-2.54" y="-33.02" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">13</text>
+<pin name="D6" x="-5.08" y="-33.02" visible="off" length="middle"/>
+<text x="-2.54" y="-35.56" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">14</text>
+<pin name="D7" x="-5.08" y="-35.56" visible="off" length="middle"/>
+<text x="-2.54" y="-38.1" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">15</text>
+<pin name="LED-" x="-5.08" y="-38.1" visible="off" length="middle"/>
+<text x="-2.54" y="-40.64" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">16</text>
+<pin name="LED+" x="-5.08" y="-40.64" visible="off" length="middle"/>
+<wire x1="0" y1="-43.18" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-43.18" x2="12.7" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-43.18" width="0.254" layer="94"/>
+<text x="5.08" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_23X1_1_D">
+<description>Original name &lt;b&gt;CON_HDR_23X1_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="-2.54" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="VDD_5V" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<text x="-2.54" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="GND@1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<text x="-2.54" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="RS" x="-5.08" y="-7.62" visible="off" length="middle"/>
+<text x="-2.54" y="-10.16" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">4</text>
+<pin name="VAR" x="-5.08" y="-10.16" visible="off" length="middle"/>
+<text x="-2.54" y="-12.7" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">5</text>
+<pin name="E1" x="-5.08" y="-12.7" visible="off" length="middle"/>
+<text x="-2.54" y="-15.24" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">6</text>
+<pin name="GND@2" x="-5.08" y="-15.24" visible="off" length="middle"/>
+<text x="-2.54" y="-17.78" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">7</text>
+<pin name="D0" x="-5.08" y="-17.78" visible="off" length="middle"/>
+<text x="-2.54" y="-20.32" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">8</text>
+<pin name="D1" x="-5.08" y="-20.32" visible="off" length="middle"/>
+<text x="-2.54" y="-22.86" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">9</text>
+<pin name="D2" x="-5.08" y="-22.86" visible="off" length="middle"/>
+<text x="-2.54" y="-25.4" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">10</text>
+<pin name="D3" x="-5.08" y="-25.4" visible="off" length="middle"/>
+<text x="-2.54" y="-27.94" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">11</text>
+<pin name="D4" x="-5.08" y="-27.94" visible="off" length="middle"/>
+<text x="-2.54" y="-30.48" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">12</text>
+<pin name="D5" x="-5.08" y="-30.48" visible="off" length="middle"/>
+<text x="-2.54" y="-33.02" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">13</text>
+<pin name="D6" x="-5.08" y="-33.02" visible="off" length="middle"/>
+<text x="-2.54" y="-35.56" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">14</text>
+<pin name="D7" x="-5.08" y="-35.56" visible="off" length="middle"/>
+<text x="-2.54" y="-38.1" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">15</text>
+<pin name="LED-" x="-5.08" y="-38.1" visible="off" length="middle"/>
+<text x="-2.54" y="-40.64" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">16</text>
+<pin name="LED+" x="-5.08" y="-40.64" visible="off" length="middle"/>
+<wire x1="0" y1="-43.18" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-43.18" x2="12.7" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="-43.18" width="0.254" layer="94"/>
+<text x="5.08" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="TR_PNP_NPN_PUMD9_1_N">
+<description>Original name &lt;b&gt;TR_PNP_NPN_PUMD9_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="2.54" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">6</text>
+<pin name="C" x="2.54" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
+<text x="-4.445" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="B" x="-5.08" y="-2.54" visible="off" length="middle" direction="pas"/>
+<text x="2.54" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="E" x="2.54" y="-10.16" visible="off" length="middle" direction="pas" rot="R90"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="0" y2="-4.826" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0.508" y="-4.572"/>
+<vertex x="1.27" y="-3.302"/>
+<vertex x="1.778" y="-4.572"/>
+</polygon>
+<wire x1="2.54" y1="-6.858" x2="-1.016" y2="-6.858" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-6.858" x2="-1.016" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-6.35" x2="-1.27" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.096" x2="-0.762" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-5.588" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="-0.762" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-4.572" x2="-1.016" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-4.318" x2="-1.016" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.556" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="-2.54" x2="-3.302" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="-2.286" x2="-2.794" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-2.794" x2="-2.286" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-2.286" x2="-1.778" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.794" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="-3.81" y="-2.286" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">10K</text>
+<text x="-3.81" y="-6.096" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">47K</text>
+<text x="3.302" y="-2.286" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="TR_PNP_NPN_PUMD9_2_N">
+<description>Original name &lt;b&gt;TR_PNP_NPN_PUMD9_2_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="2.54" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR90" align="bottom-center">3</text>
+<pin name="C" x="2.54" y="5.08" visible="off" length="middle" rot="R270"/>
+<text x="-4.445" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">5</text>
+<pin name="B" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<text x="2.54" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">4</text>
+<pin name="E" x="2.54" y="-10.16" visible="off" length="middle" rot="R90"/>
+<wire x1="2.54" y1="0" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="0" y2="-4.826" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0" y="-3.302"/>
+<vertex x="1.778" y="-3.81"/>
+<vertex x="1.016" y="-4.826"/>
+</polygon>
+<wire x1="2.54" y1="0" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.302" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="0" y2="-4.826" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="0.254" y="-3.556"/>
+<vertex x="1.778" y="-3.81"/>
+<vertex x="1.016" y="-4.826"/>
+</polygon>
+<wire x1="2.54" y1="-6.858" x2="-1.016" y2="-6.858" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-6.858" x2="-1.016" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-6.35" x2="-1.27" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-6.096" x2="-0.762" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-5.588" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="-0.762" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-4.572" x2="-1.016" y2="-4.318" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-4.318" x2="-1.016" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.556" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="-2.54" x2="-3.302" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="-2.286" x2="-2.794" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-2.794" x2="-2.286" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-2.286" x2="-1.778" y2="-2.794" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.794" x2="-1.524" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="-3.81" y="-2.286" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">10K</text>
+<text x="-3.81" y="-6.096" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">47K</text>
+<text x="3.302" y="-2.286" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_JACK_STEREO_3.5MM_SMD_1_N">
+<description>Original name &lt;b&gt;CON_JACK_STEREO_3.5MM_SMD_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="7.62" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">RING</text>
+<pin name="RING" x="10.16" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="7.62" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">BARL</text>
+<pin name="BARL" x="10.16" y="-7.62" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="7.62" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">TIP</text>
+<pin name="TIP" x="10.16" y="-5.08" visible="off" length="middle" direction="pas" rot="R180"/>
+<text x="-5.08" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P01</text>
+<pin name="P01" x="-5.08" y="-15.24" visible="off" direction="pas" rot="R90"/>
+<text x="-2.54" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P02</text>
+<pin name="P02" x="-2.54" y="-15.24" visible="off" direction="pas" rot="R90"/>
+<text x="0" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P03</text>
+<pin name="P03" x="0" y="-15.24" visible="off" direction="pas" rot="R90"/>
+<text x="2.54" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P04</text>
+<pin name="P04" x="2.54" y="-15.24" visible="off" direction="pas" rot="R90"/>
+<wire x1="-10.16" y1="2.54" x2="-7.874" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.874" y1="2.54" x2="-7.874" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-4.572" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="0.762" x2="-2.794" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.08" x2="-2.794" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-3.302" x2="-4.572" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="2.54" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">4</text>
+<text x="2.54" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">1</text>
+<text x="2.54" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0">5</text>
+<text x="-10.414" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_JACK_STEREO_3.5MM_SMD_1_I">
+<description>Original name &lt;b&gt;CON_JACK_STEREO_3.5MM_SMD_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="7.62" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">RING</text>
+<pin name="RING" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
+<text x="7.62" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">BARL</text>
+<pin name="BARL" x="10.16" y="-7.62" visible="off" length="middle" rot="R180"/>
+<text x="7.62" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">TIP</text>
+<pin name="TIP" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
+<text x="-5.08" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P01</text>
+<pin name="P01" x="-5.08" y="-15.24" visible="off" rot="R90"/>
+<text x="-2.54" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P02</text>
+<pin name="P02" x="-2.54" y="-15.24" visible="off" rot="R90"/>
+<text x="8.89" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">TIP2</text>
+<pin name="TIP2" x="12.7" y="-2.54" visible="off" rot="R180"/>
+<wire x1="-10.16" y1="2.54" x2="-7.874" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.874" y1="2.54" x2="-7.874" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-4.572" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="0.762" x2="-2.794" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.08" x2="-2.794" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-3.302" x2="-4.572" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.414" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_JACK_STEREO_3.5MM_SMD_1_D">
+<description>Original name &lt;b&gt;CON_JACK_STEREO_3.5MM_SMD_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="7.62" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">RING</text>
+<pin name="RING" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
+<text x="7.62" y="-7.62" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">BARL</text>
+<pin name="BARL" x="10.16" y="-7.62" visible="off" length="middle" rot="R180"/>
+<text x="7.62" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">TIP</text>
+<pin name="TIP" x="10.16" y="-5.08" visible="off" length="middle" rot="R180"/>
+<text x="-5.08" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P01</text>
+<pin name="P01" x="-5.08" y="-15.24" visible="off" rot="R90"/>
+<text x="-2.54" y="-11.43" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">P02</text>
+<pin name="P02" x="-2.54" y="-15.24" visible="off" rot="R90"/>
+<text x="8.89" y="-2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">TIP2</text>
+<pin name="TIP2" x="12.7" y="-2.54" visible="off" rot="R180"/>
+<wire x1="-10.16" y1="2.54" x2="-7.874" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.874" y1="2.54" x2="-7.874" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-4.572" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="0.762" x2="-2.794" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.08" x2="-2.794" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="-3.302" x2="-4.572" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.414" y="5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="MIC_ABM-715-RC_1_N">
+<description>Original name &lt;b&gt;MIC_ABM-715-RC_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="7.62" y="2.54" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">RED</text>
+<pin name="P" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
+<text x="7.62" y="-1.27" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">BLACK</text>
+<pin name="N" x="10.16" y="-1.27" visible="off" length="middle" rot="R180"/>
+<circle x="0" y="0" radius="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.286" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="-1.016" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0.508" x2="1.016" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.254" x2="1.016" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-0.254" x2="-1.016" y2="-0.254" width="0.254" layer="94"/>
+<text x="-5.334" y="5.334" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="IC_XC6227C331PR-G_1_N">
+<description>Original name &lt;b&gt;IC_XC6227C331PR-G_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="-12.7" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">1</text>
+<pin name="CE_IPD_" x="-15.24" y="5.08" visible="off" length="middle" direction="in"/>
+<text x="-12.7" y="0" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">2</text>
+<pin name="VSS" x="-15.24" y="0" visible="off" length="middle" direction="pwr"/>
+<text x="-12.7" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR180" align="top-center">3</text>
+<pin name="NC" x="-15.24" y="-5.08" visible="off" length="middle" direction="pas"/>
+<text x="12.7" y="-5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">4</text>
+<pin name="VIN" x="15.24" y="-5.08" visible="off" length="middle" direction="pwr" rot="R180"/>
+<text x="12.7" y="5.08" size="3.5306" layer="94" font="vector" ratio="6" rot="SR0" align="bottom-center">5</text>
+<pin name="VOUT" x="15.24" y="5.08" visible="off" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="FIDUCIAL_1_N">
+<description>Original name &lt;b&gt;FIDUCIAL_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="0" y="0.0254" visible="off" length="middle" direction="pas" rot="R270"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="FIDUCIAL_1_I">
+<description>Original name &lt;b&gt;FIDUCIAL_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="0" x="0" y="0.0254" visible="off" length="middle" rot="R270"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="FIDUCIAL_1_D">
+<description>Original name &lt;b&gt;FIDUCIAL_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="0" x="0" y="0.0254" visible="off" length="middle" rot="R270"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="HOLE_3.2MM_DIA_1_N">
+<description>Original name &lt;b&gt;HOLE_3.2MM_DIA_1_N&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="1" x="0" y="-10.16" visible="off" direction="pas" rot="R90"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="HOLE_3.2MM_DIA_1_I">
+<description>Original name &lt;b&gt;HOLE_3.2MM_DIA_1_I&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="1" x="0" y="-10.16" visible="off" rot="R90"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="HOLE_3.2MM_DIA_1_D">
+<description>Original name &lt;b&gt;HOLE_3.2MM_DIA_1_D&lt;/b&gt;&lt;p&gt;</description>
+<text x="0" y="-6.35" size="3.5306" layer="94" font="vector" ratio="6" rot="SR270" align="bottom-center">1</text>
+<pin name="1" x="0" y="-10.16" visible="off" rot="R90"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_3X1_0.1IN_1_N">
+<description>Original name &lt;b&gt;CON_HDR_3X1_0.1IN_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="-7.62" visible="off" length="middle" direction="pas"/>
+<wire x1="0" y1="-10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_3X1_0.1IN_1_I">
+<description>Original name &lt;b&gt;CON_HDR_3X1_0.1IN_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<pin name="3" x="-5.08" y="-7.62" visible="off" length="middle"/>
+<wire x1="0" y1="-10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_3X1_0.1IN_1_D">
+<description>Original name &lt;b&gt;CON_HDR_3X1_0.1IN_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<pin name="3" x="-5.08" y="-7.62" visible="off" length="middle"/>
+<wire x1="0" y1="-10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_2X1_0.1IN_1_N">
+<description>Original name &lt;b&gt;CON_HDR_2X1_0.1IN_1_N&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle" direction="pas"/>
+<wire x1="0" y1="-7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_2X1_0.1IN_1_I">
+<description>Original name &lt;b&gt;CON_HDR_2X1_0.1IN_1_I&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<wire x1="0" y1="-7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="CON_HDR_2X1_0.1IN_1_D">
+<description>Original name &lt;b&gt;CON_HDR_2X1_0.1IN_1_D&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<pin name="2" x="-5.08" y="-5.08" visible="off" length="middle"/>
+<wire x1="0" y1="-7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="0" size="3.5306" layer="95" font="vector" ratio="6" rot="SR0">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IC_NRF51822_MODULE">
+<gates>
+<gate name="G1" symbol="IC_NRF51822_MODULE_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_12K_0402_1%">
+<gates>
+<gate name="G1" symbol="R_12K_0402_1%_1_N" x="0" y="0"/>
+<gate name="G2" symbol="R_12K_0402_1%_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="R_12K_0402_1%_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_4U7_6V3_X5R_20%_0402">
+<gates>
+<gate name="G1" symbol="CAP_4U7_6V3_X5R_20%_0402_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CAP_4U7_6V3_X5R_20%_0402_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CAP_4U7_6V3_X5R_20%_0402_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_TPS73533DRBR">
+<gates>
+<gate name="G1" symbol="IC_TPS73533DRBR_1_N" x="0" y="0"/>
+<gate name="G2" symbol="IC_TPS73533DRBR_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="IC_TPS73533DRBR_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_2.2NF_0402">
+<gates>
+<gate name="G1" symbol="CAP_2.2NF_0402_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CAP_2.2NF_0402_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CAP_2.2NF_0402_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_1U_6V3_0402_10%_X6S">
+<gates>
+<gate name="G1" symbol="CAP_1U_6V3_0402_10%_X6S_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CAP_1U_6V3_0402_10%_X6S_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CAP_1U_6V3_0402_10%_X6S_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_MKL26Z128VFM4">
+<gates>
+<gate name="G1" symbol="IC_MKL26Z128VFM4_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_MAG3110FCR1">
+<gates>
+<gate name="G1" symbol="IC_MAG3110FCR1_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_MMA8653FCR1">
+<gates>
+<gate name="G1" symbol="IC_MMA8653FCR1_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="D_ESD_PRTR5V0U2F_115">
+<gates>
+<gate name="G1" symbol="D_ESD_PRTR5V0U2F_115_1_N" x="0" y="0"/>
+<gate name="G2" symbol="D_ESD_PRTR5V0U2F_115_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="D_ESD_PRTR5V0U2F_115_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="D_BAT60A_E6327">
+<gates>
+<gate name="G1" symbol="D_BAT60A_E6327_1_N" x="0" y="0"/>
+<gate name="G2" symbol="D_BAT60A_E6327_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="D_BAT60A_E6327_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SW_SPST_6MM">
+<gates>
+<gate name="G1" symbol="SW_SPST_6MM_1_N" x="0" y="0"/>
+<gate name="G2" symbol="SW_SPST_6MM_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="SW_SPST_6MM_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XTAL_16MHZ_3.2X2.5MM">
+<gates>
+<gate name="G1" symbol="XTAL_16MHZ_3.2X2.5MM_1_N" x="0" y="0"/>
+<gate name="G2" symbol="XTAL_16MHZ_3.2X2.5MM_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="XTAL_16MHZ_3.2X2.5MM_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_12PF_25V_0402">
+<gates>
+<gate name="G1" symbol="CAP_12PF_25V_0402_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CAP_12PF_25V_0402_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CAP_12PF_25V_0402_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_0603_GREEN">
+<gates>
+<gate name="G1" symbol="LED_0603_GREEN_1_N" x="0" y="0"/>
+<gate name="G2" symbol="LED_0603_GREEN_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="LED_0603_GREEN_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_0603_BLUE">
+<gates>
+<gate name="G1" symbol="LED_0603_BLUE_1_N" x="0" y="0"/>
+<gate name="G2" symbol="LED_0603_BLUE_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="LED_0603_BLUE_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED_0603_RED">
+<gates>
+<gate name="G1" symbol="LED_0603_RED_1_N" x="0" y="0"/>
+<gate name="G2" symbol="LED_0603_RED_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="LED_0603_RED_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_1K_0402_5%">
+<gates>
+<gate name="G1" symbol="R_1K_0402_5%_1_N" x="0" y="0"/>
+<gate name="G2" symbol="R_1K_0402_5%_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="R_1K_0402_5%_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_USB_MICRO_AB_MOLEX">
+<gates>
+<gate name="G1" symbol="CON_USB_MICRO_AB_MOLEX_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_33R_0402_5%">
+<gates>
+<gate name="G1" symbol="R_33R_0402_5%_1_N" x="0" y="0"/>
+<gate name="G2" symbol="R_33R_0402_5%_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="R_33R_0402_5%_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_4K7_0402_5%">
+<gates>
+<gate name="G1" symbol="R_4K7_0402_5%_1_N" x="0" y="0"/>
+<gate name="G2" symbol="R_4K7_0402_5%_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="R_4K7_0402_5%_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_22PF_0402">
+<gates>
+<gate name="G1" symbol="CAP_22PF_0402_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CAP_22PF_0402_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CAP_22PF_0402_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_10K_0402_5%">
+<gates>
+<gate name="G1" symbol="R_10K_0402_5%_1_N" x="0" y="0"/>
+<gate name="G2" symbol="R_10K_0402_5%_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="R_10K_0402_5%_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_100N_25V_0402_10%_X5R">
+<gates>
+<gate name="G1" symbol="CAP_100N_25V_0402_10%_X5R_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CAP_100N_25V_0402_10%_X5R_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CAP_100N_25V_0402_10%_X5R_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_JST_2MM_2W_SMD_H">
+<gates>
+<gate name="G1" symbol="CON_JST_2MM_2W_SMD_H_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CON_JST_2MM_2W_SMD_H_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CON_JST_2MM_2W_SMD_H_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_220R_0603_1%">
+<gates>
+<gate name="G1" symbol="R_220R_0603_1%_1_N" x="0" y="0"/>
+<gate name="G2" symbol="R_220R_0603_1%_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="R_220R_0603_1%_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_HDR_6X1_0.1IN">
+<gates>
+<gate name="G1" symbol="CON_HDR_6X1_0.1IN_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CON_HDR_6X1_0.1IN_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CON_HDR_6X1_0.1IN_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAT_CR2032_1">
+<gates>
+<gate name="G1" symbol="BAT_CR2032_1_1_N" x="0" y="0"/>
+<gate name="G2" symbol="BAT_CR2032_1_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="BAT_CR2032_1_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="D_BAT43WS-7-F">
+<gates>
+<gate name="G1" symbol="D_BAT43WS-7-F_1_N" x="0" y="0"/>
+<gate name="G2" symbol="D_BAT43WS-7-F_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="D_BAT43WS-7-F_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L_FERRITE_600R_400MA">
+<gates>
+<gate name="G1" symbol="L_FERRITE_600R_400MA_1_N" x="0" y="0"/>
+<gate name="G2" symbol="L_FERRITE_600R_400MA_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="L_FERRITE_600R_400MA_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R_10M_0402_5%">
+<gates>
+<gate name="G1" symbol="R_10M_0402_5%_1_N" x="0" y="0"/>
+<gate name="G2" symbol="R_10M_0402_5%_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="R_10M_0402_5%_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_HDR_23X1">
+<gates>
+<gate name="G1" symbol="CON_HDR_23X1_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CON_HDR_23X1_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CON_HDR_23X1_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TR_PNP_NPN_PUMD9">
+<gates>
+<gate name="G1" symbol="TR_PNP_NPN_PUMD9_1_N" x="0" y="0"/>
+<gate name="G2" symbol="TR_PNP_NPN_PUMD9_2_N" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_JACK_STEREO_3.5MM_SMD">
+<gates>
+<gate name="G1" symbol="CON_JACK_STEREO_3.5MM_SMD_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CON_JACK_STEREO_3.5MM_SMD_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CON_JACK_STEREO_3.5MM_SMD_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC_ABM-715-RC">
+<gates>
+<gate name="G1" symbol="MIC_ABM-715-RC_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IC_XC6227C331PR-G">
+<gates>
+<gate name="G1" symbol="IC_XC6227C331PR-G_1_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL">
+<gates>
+<gate name="G1" symbol="FIDUCIAL_1_N" x="0" y="0"/>
+<gate name="G2" symbol="FIDUCIAL_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="FIDUCIAL_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HOLE_3.2MM_DIA">
+<gates>
+<gate name="G1" symbol="HOLE_3.2MM_DIA_1_N" x="0" y="0"/>
+<gate name="G2" symbol="HOLE_3.2MM_DIA_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="HOLE_3.2MM_DIA_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_HDR_3X1_0.1IN">
+<gates>
+<gate name="G1" symbol="CON_HDR_3X1_0.1IN_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CON_HDR_3X1_0.1IN_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CON_HDR_3X1_0.1IN_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CON_HDR_2X1_0.1IN">
+<gates>
+<gate name="G1" symbol="CON_HDR_2X1_0.1IN_1_N" x="0" y="0"/>
+<gate name="G2" symbol="CON_HDR_2X1_0.1IN_1_I" x="0" y="-2.54"/>
+<gate name="G3" symbol="CON_HDR_2X1_0.1IN_1_D" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

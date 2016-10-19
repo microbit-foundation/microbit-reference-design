@@ -1,0 +1,10 @@
+Output: Inhouse_assembly_PnP
+Type  : BOM
+From  : Variant [FIRSTBUILD] of PCB Document [ModulebitV0_3.PcbDoc]
+   Generated File[Inhouse_assembly_PnP-ModulebitV0_3(FIRSTBUILD).csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 21:08:25 On 18/10/2016

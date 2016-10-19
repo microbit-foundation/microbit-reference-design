@@ -1,0 +1,254 @@
+Export log for : MB_004.Rep
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+      Warning: Unknown Kind 11
+AddingPadStyle (Default)
+AddingPadStyle EF6X6TOP1
+AddingPadStyle EF71X71MID1
+AddingPadStyle EF20X24TOP1
+AddingPadStyle EF102X118TOP1
+AddingPadStyle EF142X110TOP1
+AddingPadStyle EF24X31TOP1
+AddingPadStyle EF50X75TOP1
+AddingPadStyle EF6X6MID1
+AddingPadStyle EF87X118TOP1
+AddingPadStyle EF118X87TOP1
+AddingPadStyle P:EX79Y79D591
+AddingPadStyle EF59X79TOP1
+AddingPadStyle EF35X28TOP1
+AddingPadStyle EF39X59TOP1
+AddingPadStyle EF28X59TOP1
+AddingPadStyle EF79X94TOP1
+AddingPadStyle EF20X20TOP1
+AddingPadStyle P:EX197Y197D1261
+AddingPadStyle P:EX75Y75D391
+AddingPadStyle P:SX75Y75D391
+AddingPadStyle P:EX75Y75D392
+AddingPadStyle EF39X39TOP1
+AddingPadStyle EF13X11TOP1
+AddingPadStyle EF59X79TOP2
+AddingPadStyle EF39X79TOP1
+AddingPadStyle EF59X134TOP1
+AddingPadStyle EF39X138TOP1
+AddingPadStyle EF71X75TOP1
+AddingPadStyle EF16X53TOP1
+AddingPadStyle P:SX83Y75D331
+AddingPadStyle P:RRX39Y49D301
+AddingPadStyle EF35X31TOP1
+AddingPadStyle EF67X20TOP1
+AddingPadStyle EF20X67TOP1
+AddingPadStyle EF20X20TOP2
+AddingPadStyle EF8X39TOP1
+AddingPadStyle EF40X11TOP1
+AddingPadStyle EF59X69TOP1
+AddingPadStyle EF14X31TOP1
+AddingPadStyle EF10X31TOP1
+AddingPadStyle EF142X142TOP1
+AddingPadStyle EF55X45TOP1
+AddingPadStyle EF16X33TOP1
+AddingPadStyle P:EX79Y79D391
+AddingPadStyle P:SX79Y79D391
+Adding ViaStyle (Default)
+Adding ViaStyle V:EX26Y26D131
+Adding ViaStyle V:EX20Y20D101
+Adding TextStyle (Default)
+Adding TextStyle T:H16W2
+Adding TextStyle T:H60W10
+Adding TextStyle T:H200W10
+Adding TextStyle T:H50W10
+Adding TextStyle T:H80W10
+Adding TextStyle T:H120W10
+Adding TextStyle T:H79W10
+Adding TextStyle T:H31W8
+Adding TextStyle T:H118W10
+Adding TextStyle T:H197W10
+Adding TextStyle T:H39W10
+Adding TextStyle T:H236W10
+Adding TextStyle T:H70W10
+Adding TextStyle T:H150W10
+Adding TextStyle T:H60W6
+Adding TextStyle T:H12W2
+Adding PatternDef R_0402_1
+Adding PatternDef C_0402_1
+Adding PatternDef R_0402_2
+Adding PatternDef R_0402_3
+Adding PatternDef BAT_CR2032_CH7410-2032LF_1
+Adding PatternDef SOD323_1
+Adding PatternDef SW_FSM4JSMA_1
+Adding PatternDef CON_JACK_STEREO_3.5MM_SMT_1
+Adding PatternDef MIC_ABM-715-RC_1
+Adding PatternDef R_0402_4
+Adding PatternDef R_0402_5
+Adding PatternDef R_0402_6
+Adding PatternDef R_0603_1
+Adding PatternDef R_0603_2
+Adding PatternDef R_0603_3
+Adding PatternDef SOT895_1
+Adding PatternDef FIDUCIAL_OV_1
+Adding PatternDef HOLE_3.2MM_DIA_1
+Adding PatternDef C_0402_2
+Adding PatternDef C_0402_3
+Adding PatternDef CON_HDR_23X1_1
+Adding PatternDef SW_FSM4JSMA_2
+Adding PatternDef C_0402_4
+Adding PatternDef C_0402_5
+Adding PatternDef C_0402_6
+Adding PatternDef C_0402_7
+Adding PatternDef C_0402_8
+Adding PatternDef C_0402_9
+Adding PatternDef C_0402_10
+Adding PatternDef C_0402_11
+Adding PatternDef C_0402_12
+Adding PatternDef c_0402_13
+Adding PatternDef c_0402_14
+Adding PatternDef c_0402_15
+Adding PatternDef c_0402_16
+Adding PatternDef C_0402_17
+Adding PatternDef C_0402_18
+Adding PatternDef C_0402_19
+Adding PatternDef C_0402_20
+Adding PatternDef LED_0603_RED_1
+Adding PatternDef LED_0603_RED_2
+Adding PatternDef SOT886_1
+Adding PatternDef SOD323_2
+Adding PatternDef SOD323_3
+Adding PatternDef LED_0603_GREEN_1
+Adding PatternDef LED_0603_BLUE_1
+Adding PatternDef LED_0603_RED_3
+Adding PatternDef CON_JST_S2B-PH-SM4-TB_1
+Adding PatternDef CON_HDR_6X1_1
+Adding PatternDef CON_USB_MICRO_AB_MOLEX_1
+Adding PatternDef CON_HDR_6X1_2
+Adding PatternDef L_0603_1
+Adding PatternDef R_0402_7
+Adding PatternDef R_0402_8
+Adding PatternDef R_0402_9
+Adding PatternDef R_0402_10
+Adding PatternDef R_0603_4
+Adding PatternDef R_0603_5
+Adding PatternDef R_0603_6
+Adding PatternDef R_0603_7
+Adding PatternDef R_0603_8
+Adding PatternDef R_0603_9
+Adding PatternDef R_0603_10
+Adding PatternDef R_0603_11
+Adding PatternDef R_0603_12
+Adding PatternDef R_0402_11
+Adding PatternDef R_0402_12
+Adding PatternDef R_0402_13
+Adding PatternDef R_0402_14
+Adding PatternDef R_0402_15
+Adding PatternDef R_0402_16
+Adding PatternDef IC_nRF51822_MODULE_PASTE_1
+Adding PatternDef IC_QFN40P200X200X85-10M_1
+Adding PatternDef IC_QFN40P200X200X85-10M_2
+Adding PatternDef IC_QFN65P300X300X100-8M-TI_1
+Adding PatternDef IC_QFN50P500X500X100-32N_1
+Adding PatternDef XTAL_3.2X2.5MM_1
+Adding PatternDef SOT363_N_1
+Adding PatternDef CON_HDR_2X1_1
+Adding PatternDef CON_HDR_3X1_1
+Adding CompDef R_0402_1
+Adding CompDef C_0402_1
+Adding CompDef R_0402_2
+Adding CompDef R_0402_3
+Adding CompDef BAT_CR2032_CH7410-2032LF_1
+Adding CompDef SOD323_1
+Adding CompDef SW_FSM4JSMA_1
+Adding CompDef CON_JACK_STEREO_3.5MM_SMT_1
+Adding CompDef MIC_ABM-715-RC_1
+Adding CompDef R_0402_4
+Adding CompDef R_0402_5
+Adding CompDef R_0402_6
+Adding CompDef R_0603_1
+Adding CompDef R_0603_2
+Adding CompDef R_0603_3
+Adding CompDef SOT895_1
+Adding CompDef FIDUCIAL_OV_1
+Adding CompDef HOLE_3.2MM_DIA_1
+Adding CompDef C_0402_2
+Adding CompDef C_0402_3
+Adding CompDef CON_HDR_23X1_1
+Adding CompDef SW_FSM4JSMA_2
+Adding CompDef C_0402_4
+Adding CompDef C_0402_5
+Adding CompDef C_0402_6
+Adding CompDef C_0402_7
+Adding CompDef C_0402_8
+Adding CompDef C_0402_9
+Adding CompDef C_0402_10
+Adding CompDef C_0402_11
+Adding CompDef C_0402_12
+Adding CompDef c_0402_13
+Adding CompDef c_0402_14
+Adding CompDef c_0402_15
+Adding CompDef c_0402_16
+Adding CompDef C_0402_17
+Adding CompDef C_0402_18
+Adding CompDef C_0402_19
+Adding CompDef C_0402_20
+Adding CompDef LED_0603_RED_1
+Adding CompDef LED_0603_RED_2
+Adding CompDef SOT886_1
+Adding CompDef SOD323_2
+Adding CompDef SOD323_3
+Adding CompDef LED_0603_GREEN_1
+Adding CompDef LED_0603_BLUE_1
+Adding CompDef LED_0603_RED_3
+Adding CompDef CON_JST_S2B-PH-SM4-TB_1
+Adding CompDef CON_HDR_6X1_1
+Adding CompDef CON_USB_MICRO_AB_MOLEX_1
+Adding CompDef CON_HDR_6X1_2
+Adding CompDef L_0603_1
+Adding CompDef R_0402_7
+Adding CompDef R_0402_8
+Adding CompDef R_0402_9
+Adding CompDef R_0402_10
+Adding CompDef R_0603_4
+Adding CompDef R_0603_5
+Adding CompDef R_0603_6
+Adding CompDef R_0603_7
+Adding CompDef R_0603_8
+Adding CompDef R_0603_9
+Adding CompDef R_0603_10
+Adding CompDef R_0603_11
+Adding CompDef R_0603_12
+Adding CompDef R_0402_11
+Adding CompDef R_0402_12
+Adding CompDef R_0402_13
+Adding CompDef R_0402_14
+Adding CompDef R_0402_15
+Adding CompDef R_0402_16
+Adding CompDef IC_nRF51822_MODULE_PASTE_1
+Adding CompDef IC_QFN40P200X200X85-10M_1
+Adding CompDef IC_QFN40P200X200X85-10M_2
+Adding CompDef IC_QFN65P300X300X100-8M-TI_1
+Adding CompDef IC_QFN50P500X500X100-32N_1
+Adding CompDef XTAL_3.2X2.5MM_1
+Adding CompDef SOT363_N_1
+Adding CompDef CON_HDR_2X1_1
+Adding CompDef CON_HDR_3X1_1
+      Warning: Unexpected Pad Object Found On Layer TopLayer.
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Unexpected Poly Region Object Found On Layer TopLayer.
+      Warning: Polygon has been imported as unpoured.  It will need to be repoured in PCAD
+      Warning: Unexpected Poly Region Object Found On Layer BottomLayer.
+      Warning: Unexpected Pad Object Found On Layer KeepOutLayer.
+      Warning: Unexpected Poly Region Object Found On Layer TopSolder.
+      Warning: Unexpected Poly Region Object Found On Layer BottomSolder.
+      Warning: Unexpected Free Text Object Found On Layer BottomOverlay.   This may cause problems in PCAD PCB
+ 
+EndLog
